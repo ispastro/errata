@@ -2,6 +2,8 @@ from fastapi  import FastAPI
 from app.api.v1.health import router as health_router
 from app.core.database import create_db_and_tables
 from app.models.user_session import UserSession
+from app.models.page_view import PageView
+
 app = FastAPI(title="Doct Tutur AI Backend API")
 
 @app.on_event("startup")
