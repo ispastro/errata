@@ -3,6 +3,7 @@ from app.api.v1.health import router as health_router
 from app.core.database import create_db_and_tables
 from app.models.user_session import UserSession
 from app.models.page_view import PageView
+from app.models.scroll_event import ScrollEvent
 
 app = FastAPI(title="Doct Tutur AI Backend API")
 
