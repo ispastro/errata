@@ -12,3 +12,7 @@ class SessionResponse(BaseModel):
     user_id:str
     started_at:datetime
     ended_at:datetime | None = None
+
+
+class  SessionUpdate(BaseModel):
+    ended_at:datetime
