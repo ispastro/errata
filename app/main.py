@@ -5,6 +5,7 @@ from app.models.user_session import UserSession
 from app.models.page_view import PageView
 from app.models.scroll_event import ScrollEvent
 from app.models.detected_misconception import DetectedMisconception
+from app.models.intervention import Intervention
 
 app = FastAPI(title="Doct Tutur AI Backend API")
 
